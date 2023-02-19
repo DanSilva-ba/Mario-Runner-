@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+footer{
+    background-color:rgb(13, 243, 13);
+    height: 200px;
+    width: auto;
+    
+}
+
+.container{
+    height: 800px;
+    width: auto;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+    display: flex;
+    align-items: center;justify-content: center;
+
+}
+
+button{
+    width: 500px;
+    height: 200px;
+    border-radius: 25px;
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
