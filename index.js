@@ -28,7 +28,7 @@ const loop = setInterval(() =>{
 
     mario.style.animation = 'none'
     mario.style.bottom = `${marioPosition}px`
-    mario.src= '../images/semf-morto.png'
+    mario.src= './semf-morto.png'
 
     var timer = new Timer()
 
