@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0 auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'PixelGameFont';
+    src: url("../fonts/PixelGameFont.ttf") format('truetype');
+}
+
+
+#a {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+#b {
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+button {
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(5, 135, 135);
+    border: 5px solid rgb(20, 164, 196);
+
+}
+
+a {
+    text-decoration: none;
+    font-family: PixelGameFont;
+    font-size: 25px;
+    color: white;
+    font-weight: 100px;
+}
