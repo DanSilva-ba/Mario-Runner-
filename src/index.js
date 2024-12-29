@@ -12,14 +12,10 @@ mario.classList.remove('jump')
 }
 
 
-
-
 const loop = setInterval(() =>{
 
  const pipePosition = pipe.offsetLeft;
  const marioPosition = + window.getComputedStyle(mario).bottom.replace('px','')
-
- 
 
  
  if(pipePosition <= 120 && pipePosition > 0 && marioPosition <= 80){
@@ -28,12 +24,10 @@ const loop = setInterval(() =>{
 
     mario.style.animation = 'none'
     mario.style.bottom = `${marioPosition}px`
-    mario.src= './semf-morto.png'
-
+    mario.src= '../assets/semf-morto.png'
     var timer = new Timer()
-
-   
     clearInterval(loop)
+    document.append('div')
  }
 
 },10)
@@ -60,13 +54,4 @@ window.onload = function () {
         
 };
 
-
-
-
-
-
-
-
- 
-    
 document.addEventListener('keydown',jump)
